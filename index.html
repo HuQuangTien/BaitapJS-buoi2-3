@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+</head>
+
+<body style="margin-bottom:500px;">
+    <!-- bài tập 1 -->  
+    <div class="container">
+        <h2>Bài tập tính tiền lương nhân viên</h2>
+        <div class="mb-3">
+            <label for="" class="form-label">Số ngày làm</label>
+            <input type="text" class="form-control" name="" id="soNgayLam" aria-describedby="helpId"
+                placeholder="Vui lòng nhập số ngày làm" />
+        </div>
+        
+        <button class="btn btn-success">Tính tiền lương</button>
+        <div class="text-white bg-dark p-3 mt-3 rounded" id="ketQua"></div>       
+    </div>
+    <hr/>
+    <!-- bài tập 2 -->
+    <div class="container">
+        <h2>Bài tập tính giá trị trung bình</h2>
+        <div class="mb-3">
+            <label for="" class="form-label">Số thứ nhất</label>
+            <input type="text" class="form-control" name="" id="soThuNhat" aria-describedby="helpId"
+                placeholder="Vui lòng nhập số thứ nhất" />
+        </div>
+        <div class="mb-3">
+            <label for="" class="form-label">Số thứ hai</label>
+            <input type="text" class="form-control" name="" id="soThuHai" aria-describedby="helpId"
+                placeholder="Vui lòng nhập số thứ hai" />
+        </div>
+        <div class="mb-3">
+            <label for="" class="form-label">Số thứ ba</label>
+            <input type="text" class="form-control" name="" id="soThuBa" aria-describedby="helpId"
+                placeholder="Vui lòng nhập số thứ ba" />
+        </div>
+        <div class="mb-3">
+            <label for="" class="form-label">Số thứ tư</label>
+            <input type="text" class="form-control" name="" id="soThuTu" aria-describedby="helpId"
+                placeholder="Vui lòng nhập số thứ tư" />
+        </div>
+        <div class="mb-3">
+            <label for="" class="form-label">Số thứ năm</label>
+            <input type="text" class="form-control" name="" id="soThuNam" aria-describedby="helpId"
+                placeholder="Vui lòng nhập số thứ năm" />
+        </div>
+        
+        <button class="btn btn-dark">Tính giá trị trung bình</button>
+        <div class="text-white bg-dark p-3 mt-3 rounded" id="ketQua2"></div>
+    </div>
+    <hr/>
+    <!-- bài tập 3 -->  
+    <div class="container">
+        <h2>Bài tập quy đổi tiền USD sang VND</h2>
+        <div class="mb-3">
+            <label for="" class="form-label">Số tiền USD</label>
+            <input type="text" class="form-control" name="" id="tienUSD" aria-describedby="helpId"
+                placeholder="Vui lòng nhập số USD" />
+        </div>
+        
+        <button class="btn btn-danger">Quy đổi</button>
+        <div class="text-white bg-dark p-3 mt-3 rounded" id="ketQua3"></div>       
+    </div>
+    <hr/>
+    <!-- bài tập 4 -->  
+    <div class="container">
+        <h2>Bài tập tính diện tích và chu vi hình chữ nhật</h2>
+        <div class="mb-3">
+            <label for="" class="form-label">Chiều dài hình chữ nhật</label>
+            <input type="text" class="form-control" name="" id="chieuDai" aria-describedby="helpId"
+                placeholder="Vui lòng nhập chiều dài hình chữ nhật" />
+        </div>
+        <div class="mb-3">
+            <label for="" class="form-label">Chiều rộng hình chữ nhật</label>
+            <input type="text" class="form-control" name="" id="chieuRong" aria-describedby="helpId"
+                placeholder="Vui lòng nhập chiều rộng hình chữ nhật" />
+        </div>
+        
+        <button class="btn btn-light">Tính</button>
+        <div class="text-white bg-dark p-3 mt-3 rounded" id="ketQua4"></div>       
+    </div>
+    <!-- bài tập 5 -->  
+    <div class="container">
+        <h2>Bài tập tính tổng 2 ký số</h2>
+        <div class="mb-3">
+            <label for="" class="form-label">Nhập 1 số có 2 chữ số</label>
+            <input type="text" class="form-control" name="" id="so" aria-describedby="helpId"
+                placeholder="Vui lòng nhập số có 2 chữ số" />
+        </div>
+        
+        <button class="btn btn-primary">Tính tổng ký số</button>
+        <div class="text-white bg-dark p-3 mt-3 rounded" id="ketQua5"></div>       
+    </div>
+    <hr/>
+
+    <script src="./index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
